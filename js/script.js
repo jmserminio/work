@@ -20,7 +20,7 @@ $('.container').on("change", 'select', function() {
 	filtered.show();
   
 	if (filtered.length == 0) {
-	  alert("横井モールドにないです！");
+	  alert("横井モールドでこの工具がないです！");
 	}
   
 });
